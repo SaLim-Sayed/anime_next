@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={dmSans.className}suppressHydrationWarning={true}> 
-        <main className="max-w-7xl mx-auto bg-[#81848d]">
+        <main className="max-w-7xl mx-auto bg-[#333641]">
           <Hero />
           {children}
           <Footer />
